@@ -63,6 +63,29 @@ void TreeNode::printLevelorderIt(TreeNode *T){
 	}
 
 }
+
+// Using two queue to impletment traverse each level alone. 
+void printLevelOrderWithLevel(TreeNode* root){
+	TreeNode* p = root;
+	queue<TreeNode*> Q1;
+	Q1.push(p);
+	while(!Q1.empty()){
+		queue<TreeNode*> Q2;
+		while(!Q1.empty()){
+			p = Q1.front();
+			Q1.pop();
+			cout << p->val << " ";
+			if(p->left)
+				Q2.push(p->left);
+			if(p->right)
+				Q2.push(p->right);
+		}
+		cout << endl;
+		Q1 = Q2;
+	}
+	cout << endl;
+}
+
 void TreeNode::printPreorderIt(TreeNode *T){
 	if(!T)	return;
 	stack<TreeNode*> S;
