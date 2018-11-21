@@ -1,5 +1,16 @@
 ### Algorithms
 
+Algorithms types we will consider include:
+	* Simple recursive algorithms
+	* Backtracking algorithms
+	* Divide and conquer algorithms
+	* Dynamic programming algorithms
+	* Greedy algorithms
+	* Branch and bound algorithms
+	* Brute force algorithms
+	* Randomized algorigthms
+
+
 #### 五大常用算法：
 1. 贪心算法/Greedy
 2. 动态规划/Dynamic Programming

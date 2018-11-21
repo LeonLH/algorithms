@@ -1,6 +1,8 @@
 ### 递归
 1. 如果递归能将问题的规模缩小，那就是好递归。
 2. 缩小后，问题的性质没有发生变化，如，二分查找缩小规模后，问题的仍然是在数组中查找数据。
+3. 递归是一种通用方法，正如迭代(iterative)一样，它可以用在很多的不同算法中，比如分治，回溯，动态规划等等。我需要多练习用递归的思维方式来思考问题，这样来逐步掌握递归，正如掌握迭代的思维方式一样。
+
 
 ### Best way to master:
 
@@ -34,3 +36,5 @@
 
 ### Reference:
 1. https://blog.csdn.net/u010697982/article/details/45875913
+2. https://en.wikipedia.org/wiki/Recursion_(computer_science)
+ 

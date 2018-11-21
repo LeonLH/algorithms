@@ -116,6 +116,7 @@ void adustUp(int arr[], int k, int n){
 	}
 	arr[k] = arr[0];
 }
+// After adjustDown, all the element below k is a maxHeap.
 void adjustDown(int arr[], int k, int n){
 	arr[0] = arr[k];
 	for(int i = 2*k; i <= n; i *= 2){
